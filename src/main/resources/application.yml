@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: barber-shop-api
+  datasource:
+    url: jdbc:postgresql://centerbeam.proxy.rlwy.net:54219/railway
+    username: postgres
+    password: XXhFtJAieDmpNWqbpjXmXkrHFcxpVouM
+  jpa:
+    hibernate:
+      ddl-auto: validate
